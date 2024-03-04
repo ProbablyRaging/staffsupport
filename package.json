@@ -1,7 +1,7 @@
 {
     "name": "staffsupport",
     "version": "1.0.0",
-    "description": "dm for staff support",
+    "description": "staff support is a mod mail type discord.js v14 bot",
     "main": "index.js",
     "type": "module",
     "scripts": {

@@ -1,7 +1,9 @@
+import { BaseChannel } from "discord.js";
+
 export default {
     name: `channelDelete`,
     /**
-     * @param {Channel} channel
+     * @param {BaseChannel} channel
      */
     async execute(channel, client) {
         // Notify the user when their support channel is closed

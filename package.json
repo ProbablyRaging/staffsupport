@@ -1,0 +1,28 @@
+{
+    "name": "staffsupport",
+    "version": "1.0.0",
+    "description": "dm for staff support",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint --ignore-path .gitignore .",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "monit": "pm2 start index.js --watch --name 4dc && pm2 monit"
+    },
+    "author": "probablyraging",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@discordjs/builders": "^0.9.0",
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "@discordjs/voice": "^0.8.0",
+        "console-stamp": "^3.0.4",
+        "discord-api-types": "^0.25.2",
+        "discord.js": "^14.14.1",
+        "dotenv": "^9.0.2",
+        "glob": "^7.2.0",
+        "nodemon": "^2.0.19",
+        "pm2": "^5.1.2",
+        "uuid": "^8.3.2"
+    }
+}

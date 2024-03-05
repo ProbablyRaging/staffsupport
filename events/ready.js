@@ -8,6 +8,6 @@ export default {
         console.timeEnd('Time to online');
 
         // Set client activity
-        client.user.setActivity(`support DMs`, { type: ActivityType.Listening });
+        client.user.setActivity({ type: ActivityType.Custom, name: 'custom', state: 'DM for staff support' });
     }
 };
